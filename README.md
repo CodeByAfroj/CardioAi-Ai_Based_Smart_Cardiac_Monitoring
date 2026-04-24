@@ -34,9 +34,9 @@ The platform is built around three core pillars:
 
 ### 🔄 Flow Of Work
 
-<video src="frontend/public/flow.mov" autoplay loop muted playsinline width="100%"></video>
+![CardioAI Flow Of Work](frontend/public/flow.gif)
 
-> This video illustrates the end-to-end system workflow — how data moves through each layer of the architecture:
+> This animation illustrates the end-to-end system workflow — how data moves through each layer of the architecture:
 > - ECG signal originates from the IoT/Simulator layer
 > - Signal is sent to the FastAPI backend via HTTP POST
 > - Backend loads the trained 1D-CNN model from Hugging Face Hub
