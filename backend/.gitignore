@@ -1,0 +1,55 @@
+# =============================================================
+#  backend/.gitignore
+#  Flask / FastAPI backend — specific ignores
+# =============================================================
+
+
+# ─── Virtual Environment ─────────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+
+# ─── Environment / Secrets ───────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ─── Python Cache ────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ─── Flask ───────────────────────────────────────────────────
+instance/
+.webassets-cache
+
+# ─── FastAPI / Uvicorn ───────────────────────────────────────
+*.pid
+
+# ─── Uploaded / Processed Patient Files ──────────────────────
+uploads/
+app/uploads/
+src/uploads/
+static/uploads/
+
+# ─── Database Files ──────────────────────────────────────────
+*.db
+*.sqlite3
+*.sqlite
+
+# ─── Logs ────────────────────────────────────────────────────
+*.log
+logs/
+
+# ─── Test Artifacts ──────────────────────────────────────────
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+test-results/
+
+# ─── OS Files ────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
