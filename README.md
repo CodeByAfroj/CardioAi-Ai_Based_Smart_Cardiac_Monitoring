@@ -34,14 +34,14 @@ The platform is built around three core pillars:
 
 ### 🔄 Flow Of Work
 
-> 📹 **[View the Flow Of Work →](frontend/public/flow.mov)**
+<video src="frontend/public/flow.mov" autoplay loop muted playsinline width="100%"></video>
 
-This video illustrates the end-to-end system workflow — how data moves through each layer of the architecture:
-- ECG signal originates from the IoT/Simulator layer
-- Signal is sent to the FastAPI backend via HTTP POST
-- Backend loads the trained 1D-CNN model from Hugging Face Hub
-- Model classifies the beat → risk level is assessed
-- Results are returned to the React frontend for visualization
+> This video illustrates the end-to-end system workflow — how data moves through each layer of the architecture:
+> - ECG signal originates from the IoT/Simulator layer
+> - Signal is sent to the FastAPI backend via HTTP POST
+> - Backend loads the trained 1D-CNN model from Hugging Face Hub
+> - Model classifies the beat → risk level is assessed
+> - Results are returned to the React frontend for visualization
 
 ---
 
