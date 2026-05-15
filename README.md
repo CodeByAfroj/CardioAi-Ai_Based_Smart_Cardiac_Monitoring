@@ -1,4 +1,4 @@
-# 🫀 CardioAI — AI-Based Smart Cardiac Monitoring System
+# CardioAI — AI-Based Smart Cardiac Monitoring System
 
 > **Real-time ECG arrhythmia detection powered by a 1D-CNN deep learning model, served through a FastAPI backend and visualized through a modern React dashboard.**
 
