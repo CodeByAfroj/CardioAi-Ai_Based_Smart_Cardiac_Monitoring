@@ -7,7 +7,6 @@ from src.inference.predict import predict_heartbeat
 from src.inference.risk_analysis import analyze_risk
 from src.inference.heart_metrics import calculate_bpm, calculate_hrv
 
-
 router = APIRouter()
 
 rr_history = []
