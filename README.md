@@ -6,7 +6,7 @@
 
 ##  Project Overview
 
-**CardioAI** is a full-stack, AI-powered cardiac monitoring platform designed to detect heart arrhythmias in real time. The system simulates IoT-style ECG data streams, classifies heartbeats using a trained deep learning model, assesses patient risk levels, and presents clinical insights through an interactive web dashboard.
+**CardioAI** is a full-stack, AI-powered cardiac monitoring platform designed to detect heart arrhythmias in real time. The system simulates IoT-style ECG data streams, classifies heartbeats using a trained deep learning model, assesses patient risk levels, and presents clinical insights through an interactive web dashboard
 
 The platform is built around three core pillars:
 
