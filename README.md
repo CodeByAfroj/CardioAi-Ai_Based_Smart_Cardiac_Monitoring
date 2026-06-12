@@ -21,7 +21,7 @@ The platform is built around three core pillars:
 ### 🏠 Landing Page
 ![CardioAI Landing Page](frontend/public/Landing.png)
 
-> Real-time cardiac intelligence showcase — live ECG feed, AI alert panel, and key statistics.
+> Real-time cardiac intelligence showcase — live ECG feed, AI alert panel, and key statistics
 
 ---
 
