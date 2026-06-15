@@ -28,7 +28,7 @@ The platform is built around three core pillars:
 ### 📊 Live Monitoring Dashboard
 ![CardioAI Monitoring Dashboard](frontend/public/Monitoring_dashboard.png)
 
-> Interactive dashboard showing real-time ECG waveform (D3.js), animated 3D heart, and live BPM / HRV / Risk metrics with the ECG Simulator Mode selector.
+> Interactive dashboard showing real-time ECG waveform (D3.js), animated 3D heart, and live BPM / HRV / Risk metrics with the ECG Simulator Mode selector
 
 ---
 
